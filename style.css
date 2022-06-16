@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
-    margin: -15px -15px;
+    margin: auto;
 }
 
 header ul {
@@ -12,7 +12,7 @@ header ul {
     font-size: 18px;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
+    margin-right: 15px;
 }
 
 header ul li a {
@@ -28,7 +28,7 @@ header ul li a {
 }
 
 figure {
-    margin-left: 8px;
+    margin-left: 13px;
 }
 
 figure img {
@@ -38,24 +38,25 @@ figure img {
 .banner {
     background-color: #1F2937;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-around;
-    align-items: flex-start;
     height: 340px;
-    margin: -15px -15px;
+    margin: auto;
+   padding: 0 18em;
 }
 
 .banner img{
     width: 450px;
     height: 250px;
     flex: 0 1 auto;
-    margin-left: -732px;
     margin-top: 20px;
     border: 4px solid #F9FAF8;
+    
 }
 
 .bannercontent {
     color:  #F9FAF8;
-    width: 625px;
+
 }
 
 .bannercontent button {
@@ -76,6 +77,7 @@ figure img {
     flex-flow: column wrap;
     align-items: center;
     padding-top: 24px;
+    margin: auto;
 }
 
 .products {
@@ -96,7 +98,7 @@ figure img {
 .quote {
     background-color: #E5E7EB;
     height: 265px;
-    margin: 0 -15px;
+    margin: auto;
 }
 
 .quote figure {
