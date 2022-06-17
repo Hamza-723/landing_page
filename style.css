@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -42,6 +46,7 @@ figure img {
     justify-content: space-around;
     height: 340px;
     margin: auto;
+    gap: 20px;
    padding: 0 18em;
 }
 
@@ -59,7 +64,7 @@ figure img {
 
 }
 
-.bannercontent button {
+button {
     background-color: #3882F6;
     color:  #F9FAF8;
     border-radius: 4px;
@@ -121,4 +126,45 @@ figure img {
     text-align: center;
     margin-left: 250px;
     font-weight:900;
+}
+
+.section {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+}
+
+.newsletter {
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 110px;
+   background-color: #3882F6;
+   height: 8em;
+   width: 50em;
+   border-radius: 6px;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+
+.newsletter button {
+    align-self: center;
+    border: 2px solid #F9FAF8;
+}
+
+.ad {
+    display: flex;
+    flex-flow: column wrap;
+    color: #F9FAF8;
+}
+
+.ad h3 {
+    margin: 0;
+}
+
+.ad p{ 
+    margin: 0;
 }
